@@ -66,3 +66,6 @@ This project is licensed under the MIT License.
 👾 Stay Legal
 This tool is intended only for authorized testing and educational purposes.
 Use responsibly — you're accountable for your actions.
+
+> 📜 This project is licensed under **GPLv3 with an anti-rebranding clause**.  
+> You are free to fork, study, and contribute — but **you may not rename, rebrand, or redistribute it as your own tool**.
