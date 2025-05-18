@@ -95,5 +95,3 @@ colorama
 ## 📜 License
 
 This project is licensed under the [**GNU GPL v3.0**](LICENSE).
-
-give a downloadable file
