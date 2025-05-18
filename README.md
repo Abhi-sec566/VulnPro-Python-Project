@@ -27,20 +27,25 @@ It automates web scanning, fuzzing, and reporting using custom payloads — fast
 - `colorama`
 
 > 📦 Install dependencies:
+```bash
 pip install -r requirements.txt
 
+🚀 Usage Examples
 🔗 Scan a single target
+
 vulnpro -u https://example.com -p payloads.txt
 
 📜 Scan multiple targets from a file
+
 vulnpro -l urls.txt -p payloads.txt
 
 ⚡ Enable fast scan + verbose output
+
 vulnpro -u https://target.com -p payloads.txt -f -v
 
 💾 Save results to a file
-vulnpro -u https://target.com -p payloads.txt -o results.txt
 
+vulnpro -u https://target.com -p payloads.txt -o results.txt
 
 🛠️ Command-Line Options
 Flag	Description
@@ -55,23 +60,9 @@ Flag	Description
 --proxy	Enable random proxy usage
 -o	Output file for results
 
-
 📄 License
 This project is licensed under the MIT License.
 
 👾 Stay Legal
 This tool is intended only for authorized testing and educational purposes.
 Use responsibly — you're accountable for your actions.
-
-yaml
-
----
-
-### ✅ Tips to Enhance the “Hacker Vibe” Further:
-- Add a **banner** in `vulnpro.py` using ASCII art (with `pyfiglet` or custom).
-- Use `rich` or `termcolor` for improved console visuals.
-- Create a demo GIF or screenshot and embed it in the README.
-- Add a cool tagline like:
-  > _"Recon, fuzz, pwn — all in one script."_ 💥
-
-Let me know if you want help generating ASCII banners or creating a release.
