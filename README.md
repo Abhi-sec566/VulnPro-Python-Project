@@ -28,24 +28,19 @@ It automates web scanning, fuzzing, and reporting using custom payloads — fast
 
 > 📦 Install dependencies:
 ```bash
-pip install -r requirements.txt
+--> pip install -r requirements.txt
 
-🚀 Usage Examples
 🔗 Scan a single target
-
-vulnpro -u https://example.com -p payloads.txt
+--> vulnpro -u https://example.com -p payloads.txt
 
 📜 Scan multiple targets from a file
-
-vulnpro -l urls.txt -p payloads.txt
+--> vulnpro -l urls.txt -p payloads.txt
 
 ⚡ Enable fast scan + verbose output
-
-vulnpro -u https://target.com -p payloads.txt -f -v
+--> vulnpro -u https://target.com -p payloads.txt -f -v
 
 💾 Save results to a file
-
-vulnpro -u https://target.com -p payloads.txt -o results.txt
+--> vulnpro -u https://target.com -p payloads.txt -o results.txt
 
 🛠️ Command-Line Options
 Flag	Description
